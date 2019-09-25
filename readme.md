@@ -2,7 +2,7 @@
 `Stream Downloader`是一个用于从网络下载媒体资源(视频，音频，图片等)的工具。
 这里有个使用的案例
 
-	$ stream-dl https://v.qq.com/x/cover/mzc00200f995x6t/b0032n9h1lp.html
+	$ stream-dl 'https://v.qq.com/x/cover/mzc00200f995x6t/b0032n9h1lp.html'
 	stream-downloader - One stream downloader
 	debug: urls total 1
 	debug: matching video info
