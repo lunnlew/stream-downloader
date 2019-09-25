@@ -37,3 +37,11 @@
 npm install -g stream-downloader
 ```
 ### 使用二进制包安装
+
+## 支持站点
+
+|  站点  |         地址          | 视频 | 音频 | 图片 |
+| :----: | :-------------------: | :--: | :--: | :--: |
+|  腾讯  |   http://v.qq.com/    |  ✓   |      |      |
+|  优酷  | http://www.youku.com/ |  ✓   |      |      |
+| 爱奇艺 | http://www.iqiyi.com/ |  ✓   |      |      |
