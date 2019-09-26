@@ -1,6 +1,6 @@
 {
   "name": "stream-downloader",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "One stream downloader",
   "main": "index.js",
   "bin": {
