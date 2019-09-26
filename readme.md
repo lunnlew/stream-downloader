@@ -48,3 +48,4 @@ npm install -g stream-downloader
 | 喜马拉雅 | http://www.ximalaya.com/ |     |   ✓   |      |
 | 腾讯音乐 | http://music.qq.com/ |     |   ✓   |      |
 | Bilibili | http://www.bilibili.com/ |  ✓   |   ✓   |      |
+| 网易云音乐 | https://music.163.com/ |  ✓   |   ✓   |      |
