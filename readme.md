@@ -49,3 +49,4 @@ npm install -g stream-downloader
 | 腾讯音乐 | http://music.qq.com/ |     |   ✓   |      |
 | Bilibili | http://www.bilibili.com/ |  ✓   |   ✓   |      |
 | 网易云音乐 | https://music.163.com/ |  ✓   |   ✓   |      |
+| 酷狗音乐 | https://www.kugou.com/ |      |   ✓   |      |
