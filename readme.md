@@ -44,6 +44,7 @@ npm install -g stream-downloader
 | :----: | :-------------------: | :--: | :--: | :--: |
 |  腾讯  |   http://v.qq.com/    |  ✓   |      |      |
 |  优酷  | http://www.youku.com/ |  ✓   |      |      |
+|  土豆  | http://www.tudou.com/ |  ✓   |      |      |
 | 爱奇艺 | http://www.iqiyi.com/ |  ✓   |      |      |
 | 喜马拉雅 | http://www.ximalaya.com/ |     |   ✓   |      |
 | 腾讯音乐 | http://music.qq.com/ |     |   ✓   |      |
