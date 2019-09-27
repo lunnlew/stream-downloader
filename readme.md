@@ -42,7 +42,7 @@ npm install -g stream-downloader
 
 |  站点  |         地址          | 视频 | 音频 | 图片 |
 | :----: | :-------------------: | :--: | :--: | :--: |
-|  腾讯  |   http://v.qq.com/    |  ✓   |      |      |
+| 腾讯视频 |   http://v.qq.com/    |  ✓   |      |      |
 |  优酷  | http://www.youku.com/ |  ✓   |      |      |
 |  土豆  | http://www.tudou.com/ |  ✓   |      |      |
 | 爱奇艺 | http://www.iqiyi.com/ |  ✓   |      |      |
@@ -51,3 +51,4 @@ npm install -g stream-downloader
 | Bilibili | http://www.bilibili.com/ |  ✓   |   ✓   |      |
 | 网易云音乐 | https://music.163.com/ |  ✓   |   ✓   |      |
 | 酷狗音乐 | https://www.kugou.com/ |      |   ✓   |      |
+| 企鹅直播 | http://live.qq.com/ |  ✓   |      |      |
