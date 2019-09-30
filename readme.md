@@ -53,3 +53,4 @@ npm install -g stream-downloader
 | 酷狗音乐 | https://www.kugou.com/ |      |   ✓   |      |
 | 企鹅直播 | http://live.qq.com/ |  ✓   |      |      |
 | 斗鱼直播 | https://www.douyu.com/ |  ✓   |      |      |
+| 央视网 | http://www.cctv.com |  ✓   |      |      |
