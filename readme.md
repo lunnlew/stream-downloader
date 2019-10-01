@@ -54,3 +54,6 @@ npm install -g stream-downloader
 | 企鹅直播 | http://live.qq.com/ |  ✓   |      |      |
 | 斗鱼直播 | https://www.douyu.com/ |  ✓   |      |      |
 | 央视网 | http://www.cctv.com |  ✓   |      |      |
+| 中新网 | http://www.chinanews.com |  ✓   |      |      |
+| 凤凰网 | http://www.ifeng.com |  ✓   |      |      |
+| 中国网 | http://www.china.com.cn |  ✓   |      |      |
