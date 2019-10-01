@@ -38,7 +38,7 @@ npm install -g stream-downloader
 ```
 ### 使用二进制包
 
-|  频台  |         二进制包          |
+|  操作系统  |         二进制包          |
 | :----: | :-------------------: |
 | winx64 |   [stream-downloader-winx64-v0.0.11](https://github.com/lunnlew/stream-downloader/releases/download/v0.0.11/stream-downloader-winx64.exe)   |
 
