@@ -89,7 +89,7 @@ npm install -g stream-downloader
 ### 使用指南
 
 ## 下载视频
-当你想下载某个站点页面的视频时,可以简单使用如下的方式来下载
+当你想下载某个站点页面的视频时,可以简单使用如下的方式
 ```sh
 stream-dl 'https://v.qq.com/x/cover/mzc00200f995x6t/b0032n9h1lp.html'
 ```
