@@ -38,7 +38,12 @@ npm install -g stream-downloader
 ```
 ### 使用二进制包
 
-## 命令帮助
+|  频台  |         二进制包          |
+| :----: | :-------------------: |
+| winx64 |   [stream-downloader-winx64-v0.0.11](https://github.com/lunnlew/stream-downloader/releases/download/v0.0.11/stream-downloader-winx64.exe)   |
+
+
+### 命令帮助
 
 	stream-downloader - One stream downloader
 	Usage: stream-downloader [options] <url>
@@ -81,7 +86,7 @@ npm install -g stream-downloader
 	Output control:
 	  -o, --output String                 ffmpeg output filepath, example: output
 
-## 使用指南
+### 使用指南
 
 ## 下载视频
 当你想下载某个站点页面的视频时,可以简单使用如下的方式来下载
