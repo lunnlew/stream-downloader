@@ -79,7 +79,7 @@ let urls = [
 
 // 优酷
 'https://v.youku.com/v_show/id_XNDI3OTcxODg4MA==.html?spm=a2h0j.11185381.listitem_page1.5!6~A&&s=affcc7c9cf2849e8bbd0',
-'https://list.youku.com/show/id_zaffcc7c9cf2849e8bbd0.html?spm=a2h0j.11185381.bpmodule-playpage-lefttitle.5~5~H1~8!2~A'
+'https://list.youku.com/show/id_zaffcc7c9cf2849e8bbd0.html?spm=a2h0j.11185381.bpmodule-playpage-lefttitle.5~5~H1~8!2~A',
 
 // youtube
 'https://www.youtube.com/watch?v=HK7SPnGSxLM'
