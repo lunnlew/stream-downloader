@@ -51,6 +51,7 @@ npm install -g stream-downloader
 	Miscellaneous:
 	  -h, --help                          help and usage instructions
 	  -v, --version                       print version information and exit
+	  --disabe-config, --dc               disabe config from file
 	  -d, --debug                         output debug information
 	  -V, --verbose                       Verbose output
 	  -i, --info-only                     Info Only output
@@ -71,9 +72,13 @@ npm install -g stream-downloader
 	  --stream-part-start, --sp-s Int     Start Number of Media Streaming Fragment, example:1 - default: 1
 	  --stream-part-end, --sp-e Int       Media Streaming Fragment End Number, example:6
 	  --stream-part-range, --sp-r String  Numbering Range of Media Streaming Fragments, example:1-4,5,7,10-12
+	  --stream-start, --ss Int            Start Number of Media Stream, example:1 - default: 1
+	  --stream-end, --se Int              Media Stream End Number, example:6
+	  --stream-range, --sr String         Numbering Range of Media Streams, example:1-4,5,7,10-12
 	  -m, --stream-manual                 Manual selection of media stream number for download
 	  --only-merge, --om                  Merge downloaded videos only without downloading actions
 	  --only-download, --od               download videos only without merging actions
+	  --only-download-extras, --od-e      download videos extras info only
 	  --d-episode-num, --dn Int           Specify the number of media streams to download
 	  --playlist                          playlist to download
 
@@ -84,7 +89,10 @@ npm install -g stream-downloader
 	Merge control:
 
 	Output control:
-	  -o, --output String                 ffmpeg output filepath, example: output
+	  -o, --output String                 output filepath, example: output
+	  -O, --out-stream                    out streaming
+
+	Version 0.0.16
 
 ### 使用指南
 
