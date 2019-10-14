@@ -92,7 +92,7 @@ npm install -g stream-downloader
 	  -o, --output String                 output filepath, example: output
 	  -O, --out-stream                    out streaming
 
-	Version 0.0.16
+	Version 0.0.17
 
 ### 使用指南
 
