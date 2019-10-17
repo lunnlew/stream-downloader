@@ -6,3 +6,4 @@ node_modules/
 public/
 .deploy*/
 bin/*
+_docs_src/.vuepress/dist
