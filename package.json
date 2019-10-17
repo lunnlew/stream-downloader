@@ -38,7 +38,8 @@
     "nodemon": "^1.19.3",
     "nyc": "^14.1.1",
     "pkg": "^4.4.0",
-    "tape": "^4.10.1"
+    "tape": "^4.10.1",
+    "vuepress": "^1.2.0"
   },
   "pkg": {
     "scripts": [
@@ -53,7 +54,9 @@
     "pkgwin": "pkg . --target node10-win-x64",
     "pkgmac": "pkg . --target node10-macos-x64",
     "pkglinux": "pkg . --target node10-linux-x64",
-    "test-watch": "nodemon --exec \"npm test\""
+    "test-watch": "nodemon --exec \"npm test\"",
+    "docs:dev": "vuepress dev _docs_src",
+    "docs:build": "vuepress build _docs_src"
   },
   "repository": {
     "type": "git",
