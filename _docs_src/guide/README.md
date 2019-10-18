@@ -69,4 +69,11 @@ stream-dl 'https://v.qq.com/x/cover/mzc00200f995x6t/b0032n9h1lp.html'
 	debug: merge completed
 
 ## 进阶
-## 帮助
+
+## 限制
+当前，不支持`加密的媒体片段`，例如drm加密版权视频等。
+
+## 技术栈
+
+## 开源许可
+基于 [MIT license](https://opensource.org/licenses/MIT) 许可进行开源。
