@@ -1,6 +1,10 @@
 ## Stream Downloader
 `Stream Downloader`是一个用于从网络下载媒体资源(视频，音频，图片等)的工具。
 
+我是个兴趣使然的开发者🤓，利用搬砖之余开发了 `Stream Downloader`。
+
+✈️ 去 [官网](https://streamdl.karoy.cn) 逛逛  |  📖 查看 [帮助指南](https://streamdl.karoy.cn/guide/)
+
 ## 案例
 当你想下载某个站点页面的视频时,可以简单使用如下的方式
 ```sh
@@ -67,5 +71,5 @@ npm install -g stream-downloader
 | 凤凰网 | http://www.ifeng.com |  ✓   |      |      |
 | 中国网 | http://www.china.com.cn |  ✓   |      |      |
 
-## 指南
-更多命令及使用方法参考[Stream Downloader指南](https://streamdl.karoy.cn/)。
+## 📜 开源许可
+基于 [MIT license](https://opensource.org/licenses/MIT) 许可进行开源。
