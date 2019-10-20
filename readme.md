@@ -70,6 +70,7 @@ npm install -g stream-downloader
 | 中新网 | http://www.chinanews.com |  ✓   |      |      |
 | 凤凰网 | http://www.ifeng.com |  ✓   |      |      |
 | 中国网 | http://www.china.com.cn |  ✓   |      |      |
+| 芒果TV | https://mgtv.com |  ✓   |      |      |
 
 ## 📜 开源许可
 基于 [MIT license](https://opensource.org/licenses/MIT) 许可进行开源。
