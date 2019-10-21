@@ -1,20 +1,15 @@
 name: Upload Release Asset
-
 on:
   push:
     # Sequence of patterns matched against refs/tags
     tags:
     - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [10.x]
-
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
@@ -28,8 +23,6 @@ jobs:
         npm run docs:build --if-present
         npm run pkgwin
         npm run pkglinux
-      env:
-        CI: true
     - name: Create Release
       uses: actions/create-release@v1.0.0
       env:
