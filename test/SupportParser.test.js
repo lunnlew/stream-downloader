@@ -5,6 +5,11 @@
 
 const { should, expect, assert } = require('chai')
 const path = require('path')
+
+const { getLogger } = require(path.join(__dirname, '../lib/util/log'))
+global.silent = false
+global.logger = getLogger()
+
 const { urlMatchToParser } = require(path.join(__dirname, '../lib/utils'))
 
 // 预定义变量区
