@@ -1,6 +1,8 @@
 ## Stream Downloader
 `Stream Downloader`是一个用于从网络下载媒体资源(视频，音频，图片等)的工具。
 
+![](https://github.com/lunnlew/stream-downloader/workflows/Upload%20Release%20Asset/badge.svg)
+
 我是个兴趣使然的开发者🤓，利用搬砖之余开发了 `Stream Downloader`。
 
 ✈️ 去 [官网](https://streamdl.karoy.cn) 逛逛  |  📖 查看 [帮助指南](https://streamdl.karoy.cn/guide/)
