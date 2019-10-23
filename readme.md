@@ -49,10 +49,7 @@ npm install -g stream-downloader
 ```
 ### 使用二进制包
 
-|  操作系统  |         二进制包          |
-| :----: | :-------------------: |
-| winx64 |   [stream-downloader-winx64-v0.0.18](https://github.com/lunnlew/stream-downloader/releases/download/v0.0.18/stream-downloader-winx64.exe)   |
-| linux-amd64 |   [stream-downloader-linux-amd64-v0.0.18](https://github.com/lunnlew/stream-downloader/releases/download/v0.0.18/stream-downloader-linux-amd64)   |
+[releases](https://github.com/lunnlew/stream-downloader/releases)
 
 ## 支持站点
 
