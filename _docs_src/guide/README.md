@@ -64,7 +64,62 @@ stream-dl 'https://v.qq.com/x/cover/mzc00200f995x6t/b0032n9h1lp.html'
 	debug: Ffmpeg with command: ffmpeg -i concat:300ffa1f9cef71781b6fdfa78a0740cb/1.mp4.ts|....|300ffa1f9cef71781b6fdfa78a0740cb/9.mp4.ts -y -c copy -bsf:a aac_adtstoasc 外交风云_05.mp4
 	debug: merge completed
 
+#### 手动选择清晰度
+`-m`，`--stream-manual`表示在各个关键的步骤手动选择处理逻辑，例如手动选择清晰度格式下载。
+#### 指定清晰度下载
+`--sf`，`--stream-format`表示仅下载该参数指定的格式ID，根据不同站点的解析实现，该参数具体值不定。
+#### 任务并发数
+`--tc`，`--task-concurrency`表示同时进行的任务数，例如同时对两个url地址进行分析处理`--tc 2`，在默认使用`request`下载
+视音频片段的情况下也会起作用。
+#### 启用aria2下载
+`--enable-aria2`表示在进行下载任务的时候使用aria2工具来下载。
+#### 设定aria2工具路径
+`--aria2-path`表示设定aria2工具所在的路径，一般情况不需要使用，`stream-dl`会自动检查及下载对应平台的aria2并使用。
+#### 设定aria2下载并发数
+`--aria2-concurrency`表示设定aria2工具下载任务的并发数，默认为16。
+#### 播放列表下载
+`--playlist`，在支持playlist的情况下下载播放列表中的媒体。
+#### 播放器播放
+`-p`，`--player`指定播放器播放媒体流
+
 ## 进阶
+#### 指定播放列表中的某集媒体进行下载
+```sh
+## 下载第10集并指定为蓝光清晰度
+## 参数--d-episode-num或者--dn
+stream-dl 'https://v.qq.com/detail/m/mzc00200f995x6t.html' --playlist --pn 10 --sf fhd
+```
+#### 指定播放器播放媒体流
+```sh
+## 方式1
+stream-dl 'https://v.qq.com/x/cover/mzc00200f995x6t/b0032n9h1lp.html' -p vlc
+## 方式2
+## 参数--out-stream或者-O  注意为大写字母O
+stream-dl 'https://v.qq.com/x/cover/mzc00200f995x6t/b0032n9h1lp.html' -O | vlc -
+```
+#### 指定播放列表中的某集媒体进行播放
+```sh
+## 播放第10集
+## 参数--p-episode-num或者--pn
+stream-dl 'https://v.qq.com/detail/m/mzc00200f995x6t.html' --playlist --pn 10 -p vlc
+```
+#### 指定播放列表中的某些媒体进行下载
+```sh
+## 从第6集开始下载
+stream-dl 'https://v.qq.com/detail/m/mzc00200f995x6t.html' --playlist --ss 6
+```
+```sh
+## 下载到第23集结束
+stream-dl 'https://v.qq.com/detail/m/mzc00200f995x6t.html' --playlist --se 23
+```
+```sh
+## 下载第7集到18集
+stream-dl 'https://v.qq.com/detail/m/mzc00200f995x6t.html' --playlist --ss 7 --se 18
+```
+```sh
+## 下载第2,5-10,15-26集
+stream-dl 'https://v.qq.com/detail/m/mzc00200f995x6t.html' --playlist --sr 2,5-10,15-26
+```
 
 ## 限制
 当前，不支持`加密的媒体片段`，例如drm加密版权视频等。
