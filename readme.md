@@ -2,7 +2,7 @@
 `Stream Downloader`是一个用于从网络下载媒体资源(视频，音频，图片等)的工具。
 
 ![](https://github.com/lunnlew/stream-downloader/workflows/Release%20Build/badge.svg)
-[![npm](https://img.shields.io/npm/v/stream-downloader.svg?style=flat)](hhttps://www.npmjs.com/package/stream-downloader)
+[![npm](https://img.shields.io/npm/v/stream-downloader.svg?style=flat)](https://www.npmjs.com/package/stream-downloader)
 
 我是个兴趣使然的开发者🤓，利用搬砖之余开发了 `Stream Downloader`。
 
