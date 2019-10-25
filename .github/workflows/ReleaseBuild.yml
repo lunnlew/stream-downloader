@@ -9,12 +9,14 @@ jobs:
     strategy:
       matrix:
         node-version: [10.x]
+        node-registry: ['https://registry.npmjs.org']
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+        registry-url: ${{ matrix.node-registry }}
     - name: npm install, build, and test
       run: |
         npm install
@@ -50,3 +52,9 @@ jobs:
         asset_path: ./stream-downloader
         asset_name: stream-downloader-linux-amd64
         asset_content_type: application/x-executable
+    - name: npm publish
+      run: 
+        npm config set //registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN
+        npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
