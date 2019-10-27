@@ -7,6 +7,14 @@ sidebar: auto
 Stream Downloader是一个以NodeJs驱动的网络媒体资源下载工具，为了支持更方便地从网络下载公开资源而创建并开源的。
 当你浏览网页发现一个有趣的资源时，你就可以使用它下载该资源以用于学习和研究。
 
+::: tip
+`Stream Downloader`在下载视音频时，可能会使用第三方工具来进一步处理:
+
+`ffmpeg`用于某些`m3u8`流下载或者视音频合并等，你可以先从[ffmpeg官方](https://www.ffmpeg.org/download.html)下载对应操作系统的文件，并将其执行文件放在系统环境能搜索到的地方。例如对于`windows`可以把`ffmpeg.exe`放在`C:\Windows\System32`下。默认自动会从官方下载，但可能因网络原因，下载很慢。
+
+`aria2`用于下载等，你可以先从[aria2官方](https://github.com/aria2/aria2/releases)下载对应操作系统的文件，并将其执行文件放在系统环境能搜索到的地方。例如对于`windows`可以把`aria2c.exe`放在`C:\Windows\System32`下。默认自动会从官方下载，但可能因网络原因，下载很慢。
+:::
+
 ### 特性
 ### 路线图
 ## 起步
