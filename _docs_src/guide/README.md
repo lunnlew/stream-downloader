@@ -95,7 +95,7 @@ stream-dl 'https://v.qq.com/x/cover/mzc00200f995x6t/b0032n9h1lp.html'
 ```sh
 ## 下载第10集并指定为蓝光清晰度
 ## 参数--d-episode-num或者--dn
-stream-dl 'https://v.qq.com/detail/m/mzc00200f995x6t.html' --playlist --pn 10 --sf fhd
+stream-dl 'https://v.qq.com/detail/m/mzc00200f995x6t.html' --playlist --dn 10 --sf fhd
 ```
 #### 指定播放器播放媒体流
 ```sh
