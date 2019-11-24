@@ -1,6 +1,6 @@
 {
   "name": "stream-downloader",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "One stream downloader",
   "main": "index.js",
   "bin": {
@@ -66,7 +66,7 @@
   "bugs": {
     "url": "https://github.com/lunnlew/stream-downloader/issues"
   },
-  "homepage": "https://github.com/lunnlew/stream-downloader#readme",
+  "homepage": "https://streamdl.karoy.cn/",
   "author": "lunnlew",
   "license": "MIT"
 }
